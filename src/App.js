@@ -1,5 +1,5 @@
 import './App.css';
-import Gallery from './Containers/Gallery';
+import ImageGallery from './Containers/ImageGallery';
 import ImageGallery from './Hooks/ImageGallery';
 
 function App() {

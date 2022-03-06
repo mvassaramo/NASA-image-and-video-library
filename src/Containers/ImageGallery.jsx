@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ImageTile from '../Components/ImageTile';
 
 
-class Gallery extends Component {
+class ImageGallery extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -50,4 +50,4 @@ class Gallery extends Component {
   }
 }
 
-export default Gallery;
+export default ImageGallery;
