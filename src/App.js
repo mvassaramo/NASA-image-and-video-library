@@ -1,11 +1,12 @@
 import './App.css';
-// import CategoriesContainer from './Containers/CategoriesContainer';
-import CategoriesContainer from './Hooks/CategoriesContainer';
+import Gallery from './Containers/Gallery';
+import ImageGallery from './Hooks/ImageGallery';
 
 function App() {
   return (
     <div className=''>
-      <CategoriesContainer />
+      {/* <Gallery /> */}
+      <ImageGallery />
     </div>
   );
 }
